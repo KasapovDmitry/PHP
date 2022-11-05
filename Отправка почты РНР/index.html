@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка письма</title>
+</head>
+<body>
+    <div class="site">
+        <div class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="forma">
+                        <div class="feedback-application">
+                            <form action="./script.php" method="post">
+                                <!--Тег используется для группировки связанных элементов в форме-->
+                                <fieldset>
+                                    <div class="form_fild-wrapper">
+                                        <div class="form_fild">
+                                            <input type="text" name="name" placeholder="имя">
+                                        </div>
+                                        <div class="form_fild">
+                                            <input type="tel" name="phone" placeholder="телефон">
+                                        </div>
+                                        <div class="form_fild">
+                                            <input type="text" name="email" placeholder="email">
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <div class="form-btn blue-btn">
+                                            <input type="submit" value="Отправить сообщение">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
