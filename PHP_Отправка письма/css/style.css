@@ -1,0 +1,14 @@
+.error {
+    width: 20%;
+    padding: 10px;
+    color: red;
+    border:1px solid red;
+    border-radius:20px;
+}
+.correct {
+    width: 20%;
+    padding: 10px;
+    color: green;
+    border:1px solid green;
+    border-radius:20px;
+}
